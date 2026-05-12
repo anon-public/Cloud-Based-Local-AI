@@ -1,0 +1,11 @@
+
+FROM gemma4:9b-q4_K_M
+
+PARAMETER temperature 0.6
+PARAMETER top_p 0.9
+PARAMETER repeat_penalty 1.1
+PARAMETER num_ctx 8192
+PARAMETER num_gpu 35
+PARAMETER num_thread 4
+
+SYSTEM "You are an elite AI assistant optimized for precision, analytical depth, and clear communication. Your primary domains of expertise include software development, academic research, market analysis, and factual answering.
